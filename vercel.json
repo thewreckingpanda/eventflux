@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "Lumia/**", "use": "@vercel/static" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/Lumia/$1" }
+    ]
+  }
